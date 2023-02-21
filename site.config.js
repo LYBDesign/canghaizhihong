@@ -13,7 +13,7 @@ const CONFIG = {
   projects: [
     {
       name: `canghaizhihong`,
-      href: "https://github.com/lybdesign/canghaizhihong",
+      href: "https://github.com/LYBDesign/canghaizhihong",
     },
   ],
   // blog setting (required)
