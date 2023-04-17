@@ -12,7 +12,7 @@ type Props = {
 
 const Footer: React.FC<Props> = ({ className }) => {
   return (
-    <div className={className}>
+    <div className={className} style={{display: 'none'}}>
       <a
         href={`https://github.com/${CONFIG.profile.github}`}
         target="_blank"
