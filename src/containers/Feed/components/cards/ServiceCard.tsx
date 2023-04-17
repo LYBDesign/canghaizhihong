@@ -18,7 +18,7 @@ const ServiceCard: React.FC = () => {
           <div className="text-sm">{CONFIG.projects[0].name}</div>
         </a>
       </ul>
-    </>
+    </div>
   )
 }
 
