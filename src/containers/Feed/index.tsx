@@ -17,7 +17,7 @@ const Feed: React.FC<Props> = ({ tags, posts }) => {
   const [q, setQ] = useState('')
 
   return (
-    <div className="block md:grid grid-cols-12 gap-6">
+    <div className="col-span-12 lg:col-span-7">
       <Lists.TagList className="hidden lg:block col-span-2" data={tags} />
       <div className="col-span-12 lg:col-span-7">
         <Cards.MobileProfileCard />
